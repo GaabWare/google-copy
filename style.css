@@ -1,0 +1,151 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: #1e2022;
+}
+
+section .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 18rem;
+    width: 100%;
+    background-color: #1e2022;
+}
+
+section .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 5rem;
+    width: 100%;
+    background-color: #1e2022;
+}
+
+.search {
+    padding-left: 1rem;
+    color: var(--YLNNHc);
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: 34rem;
+    height: 3rem;
+    background-color: #4d5156;
+    border-radius: 2rem;
+}
+
+.search:hover {
+    background-color: rgb(130, 130, 130);
+}
+
+.search-block {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 100%;
+    background-color: #1e2022;
+}
+
+.search-fm1 {
+    font-size: 13px;
+    color: var(--YLNNHc);
+    background-color: #303134;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid 1px transparent;
+}
+
+.search-fm1:hover {
+    border: solid 1px rgb(118, 118, 118);
+}
+
+section .container {
+    height: 20.55rem;
+    width: 100%;
+    background-color: #1e2022;
+}
+
+.container-contry {
+    color: var(--YLNNHc);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2.975rem;
+    background-color: #17181a;
+}
+
+.contry {
+    padding-left: 2rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(58, 58, 58);
+}
+
+.space {
+    display: flex;
+}
+
+.container-footer {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 2.975rem;
+    background-color: #17181a;
+}
+
+.container-footer-2 {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    height: 2.975rem;
+    background-color: #17181a;
+    padding-right: 2rem;
+}
+
+.footer-fm2 {
+    padding-left: 2rem;
+}
+
+.footer-link {
+    color: var(--YLNNHc);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+nav .ul {
+    display: flex;
+}
+
+nav .li {
+    padding-right: 2rem;
+    list-style: none;
+}
+
+nav .header-link {
+    color: var(--YLNNHc);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav .header-link:hover {
+    text-decoration: underline;
+}
