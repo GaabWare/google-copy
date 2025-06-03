@@ -33,7 +33,7 @@ section .search-container {
 
 .search {
     padding-left: 1rem;
-    color: var(--YLNNHc);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     width: 34rem;
@@ -58,7 +58,7 @@ section .search-container {
 
 .search-fm1 {
     font-size: 13px;
-    color: var(--YLNNHc);
+    color: white;
     background-color: #303134;
     border-radius: 3px;
     margin: 0.5rem;
@@ -77,7 +77,7 @@ section .container {
 }
 
 .container-contry {
-    color: var(--YLNNHc);
+    color: white;
     display: flex;
     align-items: center;
     width: 100%;
@@ -121,14 +121,20 @@ section .container {
     padding-left: 2rem;
 }
 
-.footer-link {
-    color: var(--YLNNHc);
+.link {
+    color: white;
     font-size: 13px;
     text-decoration: none;
 }
 
-.footer-link:hover {
+.link:hover {
     text-decoration: underline;
+}
+
+.link-lucky {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 nav .ul {
@@ -138,14 +144,4 @@ nav .ul {
 nav .li {
     padding-right: 2rem;
     list-style: none;
-}
-
-nav .header-link {
-    color: var(--YLNNHc);
-    text-decoration: none;
-    font-size: 13px;
-}
-
-nav .header-link:hover {
-    text-decoration: underline;
 }
